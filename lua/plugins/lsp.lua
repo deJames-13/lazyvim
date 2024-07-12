@@ -2,10 +2,13 @@ return {
   {
     "neovim/nvim-lspconfig",
     opts = {
+      mason = {
+        enable = true,
+        auto_install = false,
+      },
       servers = {
-        lua_ls = {
-          mason = false,
-        },
+        phpactor = { enable = false },
+        intelephense = { enable = true },
       },
     },
   },

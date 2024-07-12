@@ -4,16 +4,29 @@ return {
     opts = {
       servers = {
         tailwindcss = {
-          settings = {
-            tailwindCSS = {
-              experimental = {
-                classRegex = {
-                  "@?class\\(([^]*)\\)",
-                  "'([^']*)'",
-                },
-              },
-            },
+          ft = {
+            "javascript",
+            "typescript",
+            "html",
+            "css",
+            "scss",
+            "postcss",
+            "vue",
+            "svelte",
+            "blade",
+            "javascriptreact",
+            "typescriptreact",
           },
+          -- settings = {
+          --   tailwindCSS = {
+          --     experimental = {
+          --       classRegex = {
+          --         "@?class\\(([^]*)\\)",
+          --         "'([^']*)'",
+          --       },
+          --     },
+          --   },
+          -- },
         },
       },
     },
