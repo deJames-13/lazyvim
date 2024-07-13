@@ -13,6 +13,7 @@ return {
             "html",
             "htmldjango",
             "javascriptreact",
+            "javascript",
             "less",
             "pug",
             "sass",

@@ -15,4 +15,11 @@ vim.keymap.set("n", "<leader>d", '"_d')
 -- keep pasted content on paste
 vim.keymap.set("n", "p", '"0p')
 
+-- close buffer on ctrl-w
+vim.keymap.set("i", "<C-k>", "<ESC>")
 
+-- select all
+vim.keymap.set("n", "<C-a>", "ggVG")
+
+-- reopen closed buffer
+vim.keymap.set("n", "<leader>u", ":e #<CR>")

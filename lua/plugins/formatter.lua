@@ -5,7 +5,7 @@ return {
     formatters_by_ft = {
       php = { "pint" },
       blade = { "blade-formatter" },
-      javascript = { "prettierd" },
+      javascript = { "prettier" },
       json = { "prettier" },
       yaml = { "prettier" },
       markdown = { "prettier" },
@@ -22,7 +22,7 @@ return {
           "--write",
           "$FILENAME",
           "--wrap-line-length",
-          9999,
+          999,
           "--wrap-attributes",
           "preserve-aligned",
         },
