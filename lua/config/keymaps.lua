@@ -15,6 +15,9 @@ vim.keymap.set("n", "<leader>d", '"_d')
 -- keep pasted content on paste
 vim.keymap.set("n", "p", '"0p')
 
+-- blackhole paste and save last yanked content
+vim.keymap.set("n", "<leader>p", '"_p')
+
 -- close buffer on ctrl-w
 vim.keymap.set("i", "<C-k>", "<ESC>")
 
