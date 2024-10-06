@@ -10,15 +10,15 @@ return {
         async = false, -- not recommended to change
         quiet = false, -- not recommended to change
       },
-      ---@type table<string, conform.FormatterUnit[]>
+      ---@type table<string, conform.FormatOpts[]>
       formatters_by_ft = {
-        lua = { "stylua" },
-        fish = { "fish_indent" },
-        sh = { "shfmt" },
-        php = { "pint" },
-        blade = { "blade-formatter", "rustywind" },
-        python = { "black" },
-        javascript = { "prettierd" },
+        lua = { { "stylua" } },
+        fish = { { "fish_indent" } },
+        sh = { { "shfmt" } },
+        php = { { "pint" } },
+        blade = { { "blade-formatter" }, { "rustywind" } },
+        python = { { "black" } },
+        javascript = { { "prettierd" } },
       },
       -- LazyVim will merge the options you set here with builtin formatters.
       -- You can also define any custom formatters here.

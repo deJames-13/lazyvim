@@ -3,7 +3,7 @@
 -- Add any additional options here
 vim.opt.foldmethod = "expr"
 vim.opt.foldexpr = "nvim_treesitter#foldexpr()"
-vim.opt.nu = true
+vim.opt.number = true
 
 vim.opt.tabstop = 4
 vim.opt.softtabstop = 4
