@@ -7,8 +7,7 @@ return {
         auto_install = false,
       },
       servers = {
-        phpactor = { enable = false },
-        intelephense = { enable = true },
+        phpactor = { enabled = false },
       },
     },
   },
